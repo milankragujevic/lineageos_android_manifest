@@ -2,9 +2,13 @@
 <manifest>
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com/LineageOS/"
            review="review.lineageos.org" />
 
+  <remote name="mk" fetch="https://github.com/milankragujevic/" />
+  
+  <remote name="tcl" fetch="https://github.com/5059d/" />
+  
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
